@@ -16,7 +16,7 @@ public class Classe_Standard()
         return code_Classe;
     }
 
-    public char getType_Bien()
+    public String getType_Bien()
     {
         return type_Bien;
     }
