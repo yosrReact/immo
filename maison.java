@@ -1,9 +1,9 @@
 public class maison {
 	
-	int nombrechambre;
-	String destription;
-    String cuisineequipe;
-    String jardin;
+	      int nombrechambre;
+	      String destription;
+          String cuisineequipe;
+          String jardin;
     
 	
 	public maison() {
