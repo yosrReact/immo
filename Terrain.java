@@ -4,7 +4,7 @@ import java.util.Objects;
 
 public class Terrain {
     Long superficie;
-    String APPT;
+    String INFO;
 
     public Terrain() {
         System.out.println("terrain");
