@@ -24,10 +24,3 @@ public class Emplacement{
                 adresse=s;
         }
 
-        public void setNom(String s){
-                nom=s;
-        }
-
-        public void setCoordonnee(String s){
-                coordonnee=s;
-        }
