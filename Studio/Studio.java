@@ -1,6 +1,7 @@
 public class Studio{
     String Description;
     String Loc_etage;
+    Boolean Ascensseur;
 
     public String getDescription() {
         return this.Description;
@@ -29,6 +30,5 @@ public class Studio{
     public void setAscensseur(Boolean Ascensseur) {
         this.Ascensseur = Ascensseur;
     }
-    Boolean Ascensseur;
 
 }
