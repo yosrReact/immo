@@ -10,7 +10,7 @@ public class Terrain {
         System.out.println("terrain");
         System.out.println("9999");
         System.out.println("8888");
-        int i = 5;
+        int i = 120;
     }
 
     public Terrain(Long superficie) {
