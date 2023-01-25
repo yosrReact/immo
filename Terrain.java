@@ -4,14 +4,11 @@ import java.util.Objects;
 
 public class Terrain {
     Long superficie;
-<<<<<<< HEAD
-    String Logment;
-=======
-    String logement;
->>>>>>> develop
+    String Quarier;
 
     public Terrain() {
         System.out.println("terrain");
+        System.out.println("Quarier");
     }
 
     public Terrain(Long superficie) {
