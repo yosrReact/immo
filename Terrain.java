@@ -8,8 +8,8 @@ public class Terrain {
 
     public Terrain() {
         System.out.println("terrain");
-        System.out.println("777777");
-        System.out.println("22222");
+        System.out.println("9999");
+        System.out.println("8888");
         int i = 5;
     }
 
