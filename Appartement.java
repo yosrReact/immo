@@ -1,4 +1,4 @@
-class Appartement : extends Bien-Immobilier {
+class Appartement extends Bien-Immobilier {
 	private String description;
 	private int Loc_Etage;
 	private bool Ascenseur;
