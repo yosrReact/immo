@@ -4,11 +4,11 @@ import java.util.Objects;
 
 public class Terrain {
     Long superficie;
-    String Quarier;
+    String APPT;
 
     public Terrain() {
         System.out.println("terrain");
-        System.out.println("1111");
+        System.out.println("55555");
         System.out.println("22222");
     }
 
