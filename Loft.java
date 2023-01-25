@@ -4,6 +4,7 @@ public class Loft {
 	private String adresse;
 	private String description;
 	private Integer etage;
+	private Integer nChambre;
 
 	public Loft(String adr, String desc, Integer etg) {
 		this.adresse = adr;
