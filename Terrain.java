@@ -4,7 +4,11 @@ import java.util.Objects;
 
 public class Terrain {
     Long superficie;
+<<<<<<< HEAD
     String Logment;
+=======
+    String logement;
+>>>>>>> develop
 
     public Terrain() {
         System.out.println("terrain");
