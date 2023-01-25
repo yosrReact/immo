@@ -17,4 +17,22 @@ public class Proprietaire {
     public void setNom (String nom) {
         this.nom = nom;
     }
+
+      public String getPrenom() {
+        return prenom;
+    }
+
+    public void setPrenom (String prenom) {
+        this.prenom = prenom;
+    }
+
+      public String getNum_telephone() {
+        return num_telephone;
+    }
+
+    public void setNum_telephone (String num_telephone) {
+        this.num_telephone = num_telephone;
+    }
+
+
 }
