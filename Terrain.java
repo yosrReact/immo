@@ -4,12 +4,13 @@ import java.util.Objects;
 
 public class Terrain {
     Long superficie;
-    String INFO;
+    String APPRT;
 
     public Terrain() {
         System.out.println("terrain");
-        System.out.println("55555");
+        System.out.println("777777");
         System.out.println("22222");
+        int i = 5;
     }
 
     public Terrain(Long superficie) {
