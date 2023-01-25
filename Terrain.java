@@ -4,6 +4,7 @@ import java.util.Objects;
 
 public class Terrain {
     Long superficie;
+    String ville;
 
     public Terrain() {
     }
@@ -17,6 +18,7 @@ public class Terrain {
     }
 
     public void setSuperficie(Long superficie) {
+
         this.superficie = superficie;
     }
 
