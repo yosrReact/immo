@@ -4,7 +4,7 @@ import java.util.Objects;
 
 public class Terrain {
     Long superficie;
-    String ville;
+    String logemnt;
 
     public Terrain() {
     }
