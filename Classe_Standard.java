@@ -1,8 +1,15 @@
 public class Classe_Standard()
 {
     private int Code_Classe;
-    private char Type_Bien;
+    private String Type_Bien;
     private int Prix_Maximum;
+
+    public Classe_Standard()
+    {
+        this.Type_Bien = Type_bien;
+        this.Code_Classe = Code_Classe;
+        this.Prix_Maximum = Prix_Maximum;
+    }
 
     public int getCode_Classe()
     {
@@ -24,7 +31,7 @@ public class Classe_Standard()
         this.Code_Classe = Code_Classe;
     }
 
-    public char setType_Bien()
+    public String setType_Bien()
     {
         this.Type_Bien = Type_Bien;
     }
