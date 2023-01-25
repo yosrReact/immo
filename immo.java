@@ -47,23 +47,23 @@ public class immo {
     }
 
     public void setLocalisation(String localisation) {
-        this.status = localisation;
+        this.localisation = localisation;
     }
 
-    public void setEtatdubien(String etatdubien) {
-        this.status = etatdubien;
+    public void setEtatdubien(Boolean etatdubien) {
+        this.etatdubien = etatdubien;
     }
 
-    public void setPrixachat(String prixachat) {
-        this.status = prixachat;
+    public void setPrixachat(Integer prixachat) {
+        this.prixachat = prixachat;
     }
 
-    public void setLoyermensuel(String loyermensuel) {
-        this.status = loyermensuel;
+    public void setLoyermensuel(Integer loyermensuel) {
+        this.loyermensuel = loyermensuel;
     }
 
-    public void setChargemensuel(String chargemensuel) {
-        this.status = chargemensuel;
+    public void setChargemensuel(Integer chargemensuel) {
+        this.chargemensuel = chargemensuel;
     }
 
 }
