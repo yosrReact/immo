@@ -1,6 +1,6 @@
 package org.sbe.toto;
 
-import com.sun.tools.classfile.ConstantPool;
+import java.util.Objects;
 
 public class Terrain {
     Long superficie;
@@ -20,5 +20,23 @@ public class Terrain {
         this.superficie = superficie;
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Terrain terrain = (Terrain) o;
+        return superficie.equals(terrain.superficie);
+    }
 
+    @Override
+    public int hashCode() {
+        return Objects.hash(superficie);
+    }
+
+    @Override
+    public String toString() {
+        return "Terrain{" +
+                "superficie=" + superficie +
+                '}';
+    }
 }
