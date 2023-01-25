@@ -4,9 +4,10 @@ import java.util.Objects;
 
 public class Terrain {
     Long superficie;
-    String ville;
+    String Logment;
 
     public Terrain() {
+        System.out.println("terrain");
     }
 
     public Terrain(Long superficie) {
