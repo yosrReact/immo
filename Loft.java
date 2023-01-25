@@ -1,9 +1,9 @@
 package EsbTest;
 
 public class Loft {
-	String adresse;
-	String description;
-	Integer etage;
+	private String adresse;
+	private String description;
+	private Integer etage;
 
 	public Loft(String adr, String desc, Integer etg) {
 		this.adresse = adr;
