@@ -2,8 +2,8 @@ public class maison {
 	
 	      int nombrechambre;
 	      String destription;
-          String cuisineequipe;
-          String jardin;
+             String cuisineequipe;
+             String jardin;
     
 	
 	public maison() {
