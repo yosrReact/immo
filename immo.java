@@ -1,12 +1,12 @@
 public class immo {
     private String status;
     private String localisation;
-    private Boolean etatdubien;
-    private Integer prixachat;
-    private Integer loyermensuel;
-    private Integer chargemensuel;
+    private boolean etatdubien;
+    private int prixachat;
+    private int loyermensuel;
+    private int chargemensuel;
 
-    public immo(String status, String localisation, Boolean etatdubien, Integer prixachat, Integer loyermensuel,
+    public immo(String status, String localisation, boolean etatdubien, int prixachat, int loyermensuel,
             Integer chargemensuel) {
 
         this.status = status;
@@ -26,19 +26,19 @@ public class immo {
         return localisation;
     }
 
-    public Boolean getEtatdubien() {
+    public boolean getEtatdubien() {
         return etatdubien;
     }
 
-    public Integer getPrixachat() {
+    public int getPrixachat() {
         return prixachat;
     }
 
-    public Integer getLoyermensuel() {
+    public int getLoyermensuel() {
         return loyermensuel;
     }
 
-    public Integer getChargemensuel() {
+    public int getChargemensuel() {
         return chargemensuel;
     }
 
@@ -50,19 +50,19 @@ public class immo {
         this.localisation = localisation;
     }
 
-    public void setEtatdubien(Boolean etatdubien) {
+    public void setEtatdubien(boolean etatdubien) {
         this.etatdubien = etatdubien;
     }
 
-    public void setPrixachat(Integer prixachat) {
+    public void setPrixachat(int prixachat) {
         this.prixachat = prixachat;
     }
 
-    public void setLoyermensuel(Integer loyermensuel) {
+    public void setLoyermensuel(int loyermensuel) {
         this.loyermensuel = loyermensuel;
     }
 
-    public void setChargemensuel(Integer chargemensuel) {
+    public void setChargemensuel(int chargemensuel) {
         this.chargemensuel = chargemensuel;
     }
 
